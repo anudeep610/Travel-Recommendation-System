@@ -321,7 +321,7 @@ def send_message():
         client = Client(account_sid, auth_token)
 
         message = client.messages.create(
-            from_='whatsapp:+916363764172',
+            from_='whatsapp:+91',
             body=main_msg,
             to='(enter your phone number)'
         )
